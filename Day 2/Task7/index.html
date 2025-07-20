@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seven</title>
+</head>
+<body>
+    <!-- <h1 id="test">مرحبا</h1>
+    <button onclick="welcome()">اضغط هنا</button>
+    <script>
+        function welcome(){
+            document.getElementById("test").innerHTML="اهلا بك في جافا سكريبت";
+            document.getElementById("test").style.backgroundColor="red";
+            document.getElementById("test").style.color="white";
+        }
+    </script> -->
+    <!-- <input type="text" name="name" id="in" oninput="PrintName()" >
+
+    <button onclick="PrintData()">click to show</button>
+    <p id="out"></p>
+    <p id="out2"></p>
+    <script>
+       function PrintName(){
+        let username=document.getElementById("in").value;
+        document.getElementById("out").innerHTML="Hello "+username;
+       }
+       function PrintData(){
+        let username=document.getElementById("in").value;
+        document.getElementById("out2").innerHTML="Hello "+username+" Your degree is:90%";
+       }
+
+    </script> -->
+    <input type="text" placeholder="قم بادخال الاسم" name="name" id="username" >
+    <input type="number" placeholder="قم بادخال الدرجة" name="degree" id="degree">
+    <button onclick="PrintAll()">اضغط للحصول علي الدرجة</button>
+    <p id="output"></p>
+    <script>
+    function PrintAll(){
+        let username=document.getElementById("username").value;
+        let degree=document.getElementById("degree").value;
+        if (degree>=90){
+            document.getElementById("output").innerText="مرحبا "+username+"!لقد حصلت علي تقدير ممتاز ";
+        }else if(degree>=80){
+            document.getElementById("output").innerText="مرحبا "+username+"!لقد حصلت علي تقدير جيد جدا ";
+        } else if(degree>=60){
+            document.getElementById("output").innerText="مرحبا "+username+"!لقد حصلت علي تقدير جيد ";
+        }else if(degree>=50){
+            document.getElementById("output").innerText="مرحبا "+username+"!لقد حصلت علي تقدير مقبول ";
+        }else{
+            document.getElementById("output").innerText="مرحبا "+username+"!راسب ";
+        }
+    }
+    document.getElementById("output").style.color="white";
+    document.getElementById("output").style.backgroundColor="black";
+    </script>
+
+</body>
+</html>

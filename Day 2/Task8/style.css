@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg,rgb(255, 125, 125),rgb(179, 179, 179));
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px;
+    font-family: Georgia, serif;
+}
+
+nav{
+    background-color: rgb(109, 0, 0);
+    color: white;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+}
+.nav-ul li{
+    padding:0  10px;
+}
+.nav-ul li a{
+    color: white;
+    font-style: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.nav-ul li a:hover{
+    color: #555;
+    background-color: rgb(246, 248, 250);
+}
+/* header styling */
+header{
+    background-color: beige;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+header input{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    outline: #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+header button{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgb(167, 222, 3);
+    padding: 10px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s;
+}
+header button:hover{
+    transform: scale(1.05);
+}
+/* table styling */
+table{
+    width: 100%;
+    margin: 20px auto;
+    color: white;
+    text-align: center;
+    background-color: white;
+}
+table th{
+    background-color:black;
+    padding: 5px 7px;
+}
+table td{
+    color: black;
+    padding: 5px 7px;
+    transition: .5s;
+}
+table td:hover{
+    background-color: #555;
+    color: white;
+}
+table td img{
+    width: 45px;
+    height: 45px;
+}
+/* form sytling */
+form{
+    background-color: #ffffff;
+    padding: 20px 30px;
+    margin: 20px auto;
+    color: black;
+    border-radius: 10px;
+}
+form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    outline: #0800a4 2px;
+    border-radius: 20px;
+}
+#form-button{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px auto;
+    transition: .3s;
+}
+#form-button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}

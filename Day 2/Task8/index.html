@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+        <nav>
+            <ul class="nav-ul">
+                <li> <a href="#">Home</a></li>
+                <li></li>
+                <li><a href="#">About</a></li><li></li>
+                <li><a href="#">Products</a></li><li></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+   
+    
+        <header>
+            <h1>Welcome To Our Site,Please Enter Your Name!</h1>
+            <input type="text" name="name" id="username" placeholder="Enter Your Name Here">
+            <button onclick="PrintName()">Click Here</button>
+            <p id="output"></p>
+        </header>
+    
+
+   
+        <table>
+            <caption>This Our Products:</caption>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Image</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Apple</td>
+                    <td><img src="images/istockphoto-184276818-612x612.jpg" alt="apple Image"></td>
+                    <td>40$</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Orange</td>
+                    <td><img src="images/images.jpeg" alt="orange Image"></td>
+                    <td>29.1$</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Banana</td>
+                    <td><img src="images/bunch-bananas-6175887.webp" alt="banana Image"></td>
+                    <td>19.9$</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 style="color: white;">Please Fill The Form To Order:</h3>
+        <form action="">
+            <label for="">Name:</label>
+            <input type="text"placeholder="Please Enter Your Name" name="name" id="">
+            <label for="">Number:</label>
+            <input type="text"  placeholder="Please Enter Your Number" name="number" id="">
+            <label for="">City:</label>
+            <input type="text" name="City" placeholder="Please Enter Your City" id="">
+            <label for="">E-Mail:</label>
+            <input type="email" name="email" placeholder="Please Enter Your Email" id="">
+            <input type="submit" name="" id="form-button" value="Start Shopping">
+        </form>
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
