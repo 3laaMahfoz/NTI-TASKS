@@ -10,12 +10,13 @@ $data=["student"=>[[
     "age"=>20,
     "email"=>"Mohammed@g.c",
 ],[
-    "name"=>"magdy",
+    "name"=>"alaa",
     "age"=>30,
     "email"=>"magdy@g.c"
 
 ]],
 "connection"=>true];
 echo json_encode($data);
+
 
 }
